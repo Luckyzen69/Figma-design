@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Mobile responsive</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="./Vector.png" alt="logo" width="25px" height="auto">
+      <p class="lasles">Lasles<span>VPN</span></p>
+        </div>
+        <img onclick='document.getElementById("sidebar").classList.add("active")' src="./bars-solid.svg" class="menu" alt="men-bar" width="25px"
+        height="25px">
+    <nav>
+      <div class="sidebar" id="sidebar">
+       <img onclick='document.getElementById("sidebar").classList.remove("active")' src="./x-solid.svg" class="cross" alt="cross" width="15px" height="15px" >
+      <ul>
+        <li><a href="#" class="active">home</a></li>
+        <li><a href="#">skills</a></li>
+        <li><a href="#">projects</a></li>
+        <li><a href="#">about</a></li>
+      </ul>
+     </div>
+    </nav>
+    <div class="btns">
+      <a href="#" class="btn">sign in</a>
+      <button>sign up</button>
+    </div>
+  </header>
+  <!-- main ---->
+  <div class="main">
+    <div class="text">
+      <h1>Want anything to be easy with LaslesVPN.</h1>
+    <p>Provide a network for all your needs with ease and fun using LaslesVPN discover interesting fheatures from us.</p>
+  </div>
+  <div class="img">
+      <img src="./Illustration 1.png" alt="image">
+    </div>
+    <button class="get">get started</button>
+  </div>
+</body>
+</html>
